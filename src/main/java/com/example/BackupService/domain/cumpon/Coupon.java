@@ -5,7 +5,6 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
-import java.time.DateTimeException;
 import java.util.Date;
 import java.util.UUID;
 
@@ -15,7 +14,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class CouponModel implements Serializable {
+public class Coupon implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
